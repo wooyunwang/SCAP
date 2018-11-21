@@ -1,0 +1,5 @@
+sudo -s
+ps aux |grep handleService.py
+kill -9 XXXXX
+python /usr/local/sourceCodeTest/singleHostTaskProcess.py &
+python /usr/local/sourceCodeTest/watchdog.py &
